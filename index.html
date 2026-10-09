@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HENIZA — Holding de Tecnologia, Cultura e Arte</title>
+  <meta name="description" content="HENIZA Holding. Conectar para Transformar. Portas: Tech, Cult, Art e Santé.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #05080f;
+      --card: #0b1120;
+      --border: #1e293b;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #00c4a0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 28px 0; border-bottom: 1px solid var(--border); }
+    .logo {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
+      letter-spacing: -0.5px;
+      color: white;
+      text-decoration: none;
+    }
+    .logo span { color: var(--accent); }
+    .hero { padding: 80px 0 60px; text-align: center; }
+    .eyebrow {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+    }
+    .subtitle {
+      font-size: 1.15rem;
+      color: var(--muted);
+      max-width: 560px;
+      margin: 0 auto 48px;
+    }
+    .doors {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      padding-bottom: 100px;
+    }
+    .door {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px 28px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      min-height: 220px;
+    }
+    .door:hover {
+      border-color: var(--accent);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0,196,160,0.12);
+    }
+    .door-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    .door h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .door p { font-size: 0.95rem; color: var(--muted); flex: 1; }
+    .door-arrow {
+      margin-top: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 0;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="/" class="logo">HENIZA<span>.</span></a>
+    </div>
+  </header>
+  <main>
+    <section class="hero container">
+      <div class="eyebrow">Acontecendo agora</div>
+      <h1>O que era rascunho<br>virou estrutura oficial.</h1>
+      <p class="subtitle">
+        A Sapare evoluiu. Bem-vindos à HENIZA.<br>
+        <strong style="color:var(--accent)">Conectar para Transformar.</strong>
+      </p>
+    </section>
+    <section class="doors container">
+      <a href="/tech.html" class="door">
+        <div class="door-label">Tech</div>
+        <h2>Soluções que funcionam</h2>
+        <p>OficIA, OricIA e PredicIA. Inteligência artificial aplicada à manutenção e operações de elite.</p>
+        <div class="door-arrow">Entrar →</div>
+      </a>
+      <a href="/cult.html" class="door">
+        <div class="door-label">Cult</div>
+        <h2>Conteúdo que conecta</h2>
+        <p>Produtora, gravadora e distribuidora. Música e livros que ficam.</p>
+        <div class="door-arrow">Entrar →</div>
+      </a>
+      <a href="/art.html" class="door">
+        <div class="door-label">Art</div>
+        <h2>Expressão que transforma</h2>
+        <p>Artesanatos e correlatos. Peças com história, técnica e presença.</p>
+        <div class="door-arrow">Entrar →</div>
+      </a>
+      <a href="/sante.html" class="door">
+        <div class="door-label">Santé</div>
+        <h2>Tecnologia a serviço da vida</h2>
+        <p>Soluções tecnológicas para a área da saúde. Precisão e decisão baseada em dados.</p>
+        <div class="door-arrow">Entrar →</div>
+      </a>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      HENIZA Holding · Tecnologia · Cultura · Arte · Saúde<br>
+      Caraguatatuba · Brazil
+    </div>
+  </footer>
+</body>
+</html>

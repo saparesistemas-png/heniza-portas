@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HENIZA Tech — Soluções que funcionam</title>
+  <meta name="description" content="OficIA, OricIA e PredicIA. Inteligência artificial para manutenção de frotas e operações de elite.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #05080f; --card: #0b1120; --border: #1e293b; --text: #e2e8f0; --muted: #94a3b8; --accent: #00c4a0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+    a { color: var(--accent); text-decoration: none; }
+    header { padding: 24px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.3rem; color: white; }
+    .logo span { color: var(--accent); }
+    .nav-back { font-size: 0.85rem; color: var(--muted); margin-left: 20px; }
+    .nav-back:hover { color: var(--accent); }
+    .hero { padding: 70px 0 50px; }
+    .eyebrow { font-size: 0.7rem; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
+    h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(2rem, 4.5vw, 2.8rem); font-weight: 700; letter-spacing: -1px; margin-bottom: 16px; }
+    .lead { font-size: 1.15rem; color: var(--muted); max-width: 580px; margin-bottom: 32px; }
+    .cta { display: inline-flex; align-items: center; gap: 10px; background: var(--accent); color: #000; font-weight: 700; padding: 14px 28px; border-radius: 14px; font-size: 0.95rem; }
+    section { padding: 50px 0; border-top: 1px solid var(--border); }
+    h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; margin-bottom: 16px; }
+    p { color: var(--muted); margin-bottom: 14px; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; margin-top: 28px; }
+    .feature { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 24px; }
+    .feature h3 { font-size: 1rem; font-weight: 600; margin-bottom: 8px; color: white; }
+    .feature p { font-size: 0.9rem; margin: 0; }
+    .products { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+    .product-tag { background: rgba(0,196,160,0.12); border: 1px solid rgba(0,196,160,0.3); color: var(--accent); font-size: 0.85rem; font-weight: 600; padding: 8px 16px; border-radius: 999px; }
+    footer { border-top: 1px solid var(--border); padding: 28px 0; text-align: center; font-size: 0.85rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex;align-items:center;">
+      <a href="/" class="logo">HENIZA<span>.</span></a>
+      <a href="/" class="nav-back">← Voltar ao lobby</a>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero" style="border:none;padding-top:70px;">
+      <div class="eyebrow">Heniza Tech</div>
+      <h1>Soluções que funcionam</h1>
+      <p class="lead">OficIA — o tecido cognitivo unificado para manutenção automotiva de elite.<br>Conhecimento + Dados + Decisões Melhores.</p>
+      <a href="https://heniza.vercel.app" target="_blank" rel="noopener" class="cta">Ver demonstração ao vivo →</a>
+    </section>
+    <section>
+      <h2>O Problema</h2>
+      <p>A “Caixa Preta” das oficinas: assimetria de informação, fraudes em diagnósticos e custos ocultos de imobilização.</p>
+    </section>
+    <section>
+      <h2>A Solução — OficIA</h2>
+      <p>Diagnóstico multimodal com IA. Análise multidisciplinar (Mecânica + Elétrica + Software/ECU). Telemetria em tempo real. Orçamento automático. Offline-first. Integração WhatsApp.</p>
+      <div class="features">
+        <div class="feature"><h3>Diagnóstico Multimodal</h3><p>Som, imagem e sintomas. A IA cruza tudo.</p></div>
+        <div class="feature"><h3>3 Especialistas IA</h3><p>Mecânica, Elétrica e Software/ECU consolidam confiança.</p></div>
+        <div class="feature"><h3>Telemetria ao Vivo</h3><p>RPM, temperatura, pressão de óleo e bateria em tempo real.</p></div>
+        <div class="feature"><h3>Orçamento Automático</h3><p>Peças + mão de obra em segundos. Envio por WhatsApp.</p></div>
+        <div class="feature"><h3>Offline-First + PWA</h3><p>Funciona sem internet. Instalável como app Android.</p></div>
+        <div class="feature"><h3>Manutenção Preventiva</h3><p>Banco OBD completo e alertas baseados em dados.</p></div>
+      </div>
+    </section>
+    <section>
+      <h2>Produtos da Tech</h2>
+      <div class="products">
+        <span class="product-tag">OficIA</span>
+        <span class="product-tag">OricIA</span>
+        <span class="product-tag">PredicIA</span>
+        <span class="product-tag">GlassIA</span>
+      </div>
+      <p style="margin-top:20px;">Demo: <a href="https://heniza.vercel.app" target="_blank">heniza.vercel.app</a></p>
+    </section>
+  </main>
+  <footer><div class="container">HENIZA Tech · OficIA · Caraguatatuba · Brazil</div></footer>
+</body>
+</html>
